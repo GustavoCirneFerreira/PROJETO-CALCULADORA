@@ -1,0 +1,21 @@
+@font-face {
+  font-family:'Montserrat';
+  src:url('./fonts/Montserrat-VariableFont_wght.ttf')
+}
+
+* {
+  font-family: 'Montserrat', monospace;
+  font-weight: lighter;  /* Utilizando lighter por enquanto */
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  /* Fonte: */
+  color: #fff;
+  background: linear-gradient(to right, #F0F2F0, #000C40);
+}
